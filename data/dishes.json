@@ -1,0 +1,507 @@
+{
+  "NGA": {
+    "en": "Jollof rice",
+    "ja": "ジョロフライス",
+    "zh": "西非乔洛夫饭"
+  },
+  "GHA": {
+    "en": "Jollof rice",
+    "ja": "ジョロフライス",
+    "zh": "西非乔洛夫饭"
+  },
+  "ETH": {
+    "en": "Injera and Wat",
+    "ja": "インジェラとワット",
+    "zh": "英吉拉饼配炖菜"
+  },
+  "ERI": {
+    "en": "Injera",
+    "ja": "インジェラ",
+    "zh": "英吉拉饼"
+  },
+  "IND": {
+    "en": "Dal and Roti",
+    "ja": "ダールとロティ",
+    "zh": "扁豆咖喱配烙饼"
+  },
+  "PAK": {
+    "en": "Biryani",
+    "ja": "ビリヤニ",
+    "zh": "比尔亚尼饭"
+  },
+  "BGD": {
+    "en": "Fish curry",
+    "ja": "魚のカレー",
+    "zh": "鱼咖喱"
+  },
+  "NPL": {
+    "en": "Dal Bhat",
+    "ja": "ダルバート",
+    "zh": "尼泊尔扁豆饭"
+  },
+  "LKA": {
+    "en": "Rice and curry",
+    "ja": "ライスとカレー",
+    "zh": "咖喱饭"
+  },
+  "CHN": {
+    "en": "Dumplings (Jiaozi)",
+    "ja": "餃子",
+    "zh": "饺子"
+  },
+  "TWN": {
+    "en": "Taiwanese beef noodle soup",
+    "ja": "台湾牛肉麺",
+    "zh": "台湾牛肉面"
+  },
+  "VNM": {
+    "en": "Pho noodle soup",
+    "ja": "フォー",
+    "zh": "越南河粉"
+  },
+  "KOR": {
+    "en": "Soybean paste stew (Doenjang-jjigae)",
+    "ja": "テンジャンチゲ",
+    "zh": "韩式大酱汤"
+  },
+  "PRK": {
+    "en": "Cold noodles (Naengmyeon)",
+    "ja": "冷麺",
+    "zh": "冷面"
+  },
+  "JPN": {
+    "en": "Sushi and Teishoku meal",
+    "ja": "寿司と定食",
+    "zh": "寿司与定食"
+  },
+  "THA": {
+    "en": "Pad Thai & Tom Yum",
+    "ja": "パッタイとトムヤム",
+    "zh": "泰式炒河粉与冬阴功汤"
+  },
+  "IDN": {
+    "en": "Nasi Goreng",
+    "ja": "ナシゴレン",
+    "zh": "印尼炒饭"
+  },
+  "MYS": {
+    "en": "Nasi Lemak",
+    "ja": "ナシレマ",
+    "zh": "椰浆饭"
+  },
+  "PHL": {
+    "en": "Adobo",
+    "ja": "アドボ",
+    "zh": "菲律宾阿多波炖肉"
+  },
+  "MMR": {
+    "en": "Mohinga",
+    "ja": "モヒンガー",
+    "zh": "缅甸鱼汤米线"
+  },
+  "KHM": {
+    "en": "Amok",
+    "ja": "アモック",
+    "zh": "柬埔寨阿莫克鱼"
+  },
+  "MEX": {
+    "en": "Street Tacos",
+    "ja": "タコス",
+    "zh": "墨西哥街头塔可"
+  },
+  "GTM": {
+    "en": "Tamales",
+    "ja": "タマーレ",
+    "zh": "玉米粽"
+  },
+  "BRA": {
+    "en": "Feijoada black bean stew",
+    "ja": "フェイジョアーダ",
+    "zh": "巴西黑豆炖肉"
+  },
+  "ARG": {
+    "en": "Asado barbecue",
+    "ja": "アサード",
+    "zh": "阿根廷烤肉"
+  },
+  "COL": {
+    "en": "Arepa",
+    "ja": "アレパ",
+    "zh": "玉米饼"
+  },
+  "VEN": {
+    "en": "Arepa",
+    "ja": "アレパ",
+    "zh": "玉米饼"
+  },
+  "PER": {
+    "en": "Ceviche",
+    "ja": "セビーチェ",
+    "zh": "酸橘汁腌鱼"
+  },
+  "EGY": {
+    "en": "Koshari",
+    "ja": "コシャリ",
+    "zh": "埃及库沙里饭"
+  },
+  "MAR": {
+    "en": "Tagine",
+    "ja": "タジン",
+    "zh": "塔吉锅炖菜"
+  },
+  "DZA": {
+    "en": "Couscous",
+    "ja": "クスクス",
+    "zh": "库斯库斯"
+  },
+  "TUN": {
+    "en": "Couscous",
+    "ja": "クスクス",
+    "zh": "库斯库斯"
+  },
+  "TUR": {
+    "en": "Lentil soup",
+    "ja": "レンズ豆のスープ",
+    "zh": "扁豆汤"
+  },
+  "IRN": {
+    "en": "Ghormeh sabzi",
+    "ja": "ゴルメサブジ",
+    "zh": "波斯香草炖肉"
+  },
+  "IRQ": {
+    "en": "Dolma",
+    "ja": "ドルマ",
+    "zh": "多尔玛酿菜"
+  },
+  "SYR": {
+    "en": "Kibbeh",
+    "ja": "キッベ",
+    "zh": "基贝肉丸"
+  },
+  "SAU": {
+    "en": "Kabsa",
+    "ja": "カブサ",
+    "zh": "阿拉伯香料饭"
+  },
+  "YEM": {
+    "en": "Saltah",
+    "ja": "サルタ",
+    "zh": "也门萨尔塔炖菜"
+  },
+  "AFG": {
+    "en": "Kabuli pulao",
+    "ja": "カブリパラオ",
+    "zh": "阿富汗卡布里饭"
+  },
+  "UZB": {
+    "en": "Plov",
+    "ja": "プロフ",
+    "zh": "中亚抓饭"
+  },
+  "KAZ": {
+    "en": "Beshbarmak",
+    "ja": "ベシュバルマク",
+    "zh": "哈萨克肉面"
+  },
+  "RUS": {
+    "en": "Borscht and rye bread",
+    "ja": "ボルシチとライ麦パン",
+    "zh": "罗宋汤配黑麦面包"
+  },
+  "UKR": {
+    "en": "Borscht",
+    "ja": "ボルシチ",
+    "zh": "罗宋汤"
+  },
+  "POL": {
+    "en": "Pierogi",
+    "ja": "ピエロギ",
+    "zh": "波兰饺子"
+  },
+  "ITA": {
+    "en": "Pasta al pomodoro",
+    "ja": "トマトソースのパスタ",
+    "zh": "番茄意面"
+  },
+  "FRA": {
+    "en": "Baguette and regional cheese",
+    "ja": "バゲットと地元のチーズ",
+    "zh": "法棍配地方奶酪"
+  },
+  "DEU": {
+    "en": "Bratwurst and crusty bread",
+    "ja": "ブラートヴルストとパン",
+    "zh": "德式烤香肠配面包"
+  },
+  "ESP": {
+    "en": "Paella",
+    "ja": "パエリア",
+    "zh": "西班牙海鲜饭"
+  },
+  "GBR": {
+    "en": "Fish and chips",
+    "ja": "フィッシュ・アンド・チップス",
+    "zh": "炸鱼薯条"
+  },
+  "USA": {
+    "en": "Cheeseburger and fries",
+    "ja": "チーズバーガーとフライドポテト",
+    "zh": "芝士汉堡配薯条"
+  },
+  "COD": {
+    "en": "Fufu",
+    "ja": "フフ",
+    "zh": "非洲木薯团"
+  },
+  "CMR": {
+    "en": "Ndole",
+    "ja": "ンドレ",
+    "zh": "喀麦隆恩多莱炖菜"
+  },
+  "KEN": {
+    "en": "Ugali",
+    "ja": "ウガリ",
+    "zh": "东非玉米糊"
+  },
+  "TZA": {
+    "en": "Ugali",
+    "ja": "ウガリ",
+    "zh": "东非玉米糊"
+  },
+  "UGA": {
+    "en": "Matoke",
+    "ja": "マトケ",
+    "zh": "乌干达炖青蕉"
+  },
+  "ZAF": {
+    "en": "Pap",
+    "ja": "パップ",
+    "zh": "南非玉米粥"
+  },
+  "ZWE": {
+    "en": "Sadza",
+    "ja": "サザ",
+    "zh": "津巴布韦玉米糊"
+  },
+  "MWI": {
+    "en": "Nshima",
+    "ja": "ンシマ",
+    "zh": "赞比亚玉米糊"
+  },
+  "ZMB": {
+    "en": "Nshima",
+    "ja": "ンシマ",
+    "zh": "赞比亚玉米糊"
+  },
+  "SEN": {
+    "en": "Thieboudienne",
+    "ja": "チェブジェン",
+    "zh": "塞内加尔鱼饭"
+  },
+  "MLI": {
+    "en": "Thieboudienne",
+    "ja": "チェブジェン",
+    "zh": "塞内加尔鱼饭"
+  },
+  "SDN": {
+    "en": "Ful medames",
+    "ja": "フール・メダンメス",
+    "zh": "炖蚕豆"
+  },
+  "SOM": {
+    "en": "Kambun",
+    "ja": "カンブーン",
+    "zh": "Kambun"
+  },
+  "CIV": {
+    "en": "Attieke",
+    "ja": "アチェケ",
+    "zh": "科特迪瓦木薯饭"
+  },
+  "HTI": {
+    "en": "Diri ak kole",
+    "ja": "ディリ・アク・コレ",
+    "zh": "海地红豆饭"
+  },
+  "CUB": {
+    "en": "Ropa vieja",
+    "ja": "ロパ・ビエハ",
+    "zh": "古巴炖牛肉丝"
+  },
+  "NER": {
+    "en": "Dambu",
+    "ja": "ダンブ",
+    "zh": "Dambu"
+  },
+  "BFA": {
+    "en": "To",
+    "ja": "トー",
+    "zh": "To"
+  },
+  "TCD": {
+    "en": "Boule",
+    "ja": "ブール",
+    "zh": "Boule"
+  },
+  "MDG": {
+    "en": "Romazava",
+    "ja": "ロマザバ",
+    "zh": "马达加斯加炖菜"
+  },
+  "AGO": {
+    "en": "Funge",
+    "ja": "フンジ",
+    "zh": "安哥拉玉米糊"
+  },
+  "MOZ": {
+    "en": "Matapa",
+    "ja": "マタパ",
+    "zh": "莫桑比克木薯叶炖菜"
+  },
+  "HKG": {
+    "en": "Wonton noodles",
+    "ja": "ワンタン麺",
+    "zh": "云吞面"
+  },
+  "HRV": {
+    "en": "Sarma",
+    "ja": "サルマ",
+    "zh": "卷叶炖菜"
+  },
+  "PRI": {
+    "en": "Arroz con gandules",
+    "ja": "アロス・コン・ガンドゥレス",
+    "zh": "波多黎各鸽豆饭"
+  },
+  "BIH": {
+    "en": "Cevapi",
+    "ja": "チェヴァピ",
+    "zh": "巴尔干烤肉肠"
+  },
+  "MDA": {
+    "en": "Mamaliga",
+    "ja": "ママリガ",
+    "zh": "罗马尼亚玉米粥"
+  },
+  "ARM": {
+    "en": "Dolma",
+    "ja": "ドルマ",
+    "zh": "多尔玛酿菜"
+  },
+  "LTU": {
+    "en": "Cepelinai",
+    "ja": "ツェペリナイ",
+    "zh": "立陶宛土豆团"
+  },
+  "ALB": {
+    "en": "Tave kosi",
+    "ja": "タヴェ・コシ",
+    "zh": "阿尔巴尼亚酸奶烤羊肉"
+  },
+  "SVN": {
+    "en": "Potica",
+    "ja": "ポティツァ",
+    "zh": "斯洛文尼亚核桃卷"
+  },
+  "LVA": {
+    "en": "Grey peas with bacon",
+    "ja": "グレーピースとベーコン",
+    "zh": "培根灰豌豆"
+  },
+  "MKD": {
+    "en": "Tavce gravce",
+    "ja": "タフチェ・グラフチェ",
+    "zh": "马其顿焗豆"
+  },
+  "XKX": {
+    "en": "Flija",
+    "ja": "フリア",
+    "zh": "科索沃千层饼"
+  },
+  "BHR": {
+    "en": "Machboos",
+    "ja": "マチブース",
+    "zh": "海湾香料饭"
+  },
+  "TTO": {
+    "en": "Doubles",
+    "ja": "ダブルス",
+    "zh": "特立尼达鹰嘴豆夹饼"
+  },
+  "EST": {
+    "en": "Rye bread",
+    "ja": "ライ麦パン",
+    "zh": "黑麦面包"
+  },
+  "CYP": {
+    "en": "Halloumi",
+    "ja": "ハルミチーズ",
+    "zh": "哈罗米奶酪"
+  },
+  "MUS": {
+    "en": "Dhal puri",
+    "ja": "ダルプリ",
+    "zh": "扁豆薄饼"
+  },
+  "DJI": {
+    "en": "Skoudehkaris",
+    "ja": "スクデカリス",
+    "zh": "吉布提香料饭"
+  },
+  "FJI": {
+    "en": "Kokoda",
+    "ja": "ココンダ",
+    "zh": "斐济椰奶腌鱼"
+  },
+  "COM": {
+    "en": "Mataba",
+    "ja": "マタバ",
+    "zh": "科摩罗木薯叶炖菜"
+  },
+  "GUY": {
+    "en": "Pepperpot",
+    "ja": "ペッパーポット",
+    "zh": "圭亚那炖肉"
+  },
+  "BTN": {
+    "en": "Ema datshi",
+    "ja": "エマダツィ",
+    "zh": "不丹辣椒奶酪"
+  },
+  "MAC": {
+    "en": "Minchi",
+    "ja": "ミンチ",
+    "zh": "澳门免治"
+  },
+  "LUX": {
+    "en": "Judd mat gaardebounen",
+    "ja": "ユッド・マット・ガーデボウネン",
+    "zh": "卢森堡熏肉蚕豆"
+  },
+  "MNE": {
+    "en": "Kacamak",
+    "ja": "カチャマク",
+    "zh": "巴尔干玉米粥"
+  },
+  "SUR": {
+    "en": "Roti",
+    "ja": "ロティ",
+    "zh": "烙饼"
+  },
+  "MLT": {
+    "en": "Pastizzi",
+    "ja": "パスティッツィ",
+    "zh": "马耳他酥饼"
+  },
+  "MDV": {
+    "en": "Mas huni",
+    "ja": "マスフニ",
+    "zh": "马尔代夫金枪鱼椰蓉"
+  },
+  "CPV": {
+    "en": "Cachupa",
+    "ja": "カチューパ",
+    "zh": "佛得角玉米豆炖菜"
+  }
+}

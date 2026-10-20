@@ -1,0 +1,300 @@
+{
+  "5": {
+    "age": 5,
+    "title": {
+      "en": "Age 5: Early Childhood Checkpoint",
+      "ja": "5歳：幼少期を振り返る",
+      "zh": "5岁：回望童年"
+    },
+    "fact": {
+      "en": "Globally, about 5 million children die before reaching their fifth birthday due to preventable causes (UNICEF/WHO). Reaching age 5 is humanity's first major milestone.",
+      "ja": "世界では防げる原因で、毎年約500万人の子どもが5歳の誕生日を迎えられません（UNICEF・WHO）。5歳は人生の最初の大きな節目です。",
+      "zh": "全球每年约有500万儿童因可预防的原因未能活到五岁生日（UNICEF、WHO）。活到五岁，是人生第一个重要里程碑。"
+    },
+    "questions": [
+      {
+        "question": {
+          "en": "How was your life at age five? What was something you took for granted back then?",
+          "ja": "5歳のころ、当たり前だと思っていた大切なものは何ですか？",
+          "zh": "五岁时，你把什么珍贵的事物当作理所当然？"
+        },
+        "options": [
+          {
+            "id": "dinner",
+            "label": {
+              "en": "A warm dinner served every evening",
+              "ja": "毎晩の温かい夕食",
+              "zh": "每天晚上的热饭菜"
+            },
+            "stat": {
+              "happiness": 4,
+              "social": 3
+            }
+          },
+          {
+            "id": "clinic",
+            "label": {
+              "en": "A doctor or clinic whenever you fell sick",
+              "ja": "病気の時に診てもらえる病院",
+              "zh": "生病时能去看的医生或诊所"
+            },
+            "stat": {
+              "health": 5,
+              "smarts": 2
+            }
+          },
+          {
+            "id": "swing",
+            "label": {
+              "en": "The swings and playground in the neighborhood",
+              "ja": "近所のブランコや遊び場",
+              "zh": "附近的秋千和游乐场"
+            },
+            "stat": {
+              "happiness": 6,
+              "health": 2
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "15": {
+    "age": 15,
+    "title": {
+      "en": "Age 15: The Dawn of Youth",
+      "ja": "15歳：青春の始まり",
+      "zh": "15岁：青春的曙光"
+    },
+    "fact": {
+      "en": "Over 250 million children and youth worldwide are out of school, many pushed into early labor or marriage (UNESCO).",
+      "ja": "世界で2億5千万人以上の子どもや若者が学校に通えず、早期の労働や結婚を迫られる人もいます（UNESCO）。",
+      "zh": "全球超过2.5亿儿童和青年失学，许多人被迫过早劳动或结婚（UNESCO）。"
+    },
+    "questions": [
+      {
+        "question": {
+          "en": "At age fifteen, what did school and daily life mean to you?",
+          "ja": "15歳のあなたにとって、学校や毎日はどんな意味を持っていましたか？",
+          "zh": "十五岁时，学校和日常生活对你意味着什么？"
+        },
+        "options": [
+          {
+            "id": "friends",
+            "label": {
+              "en": "A vibrant place to meet friends and laugh",
+              "ja": "友人と会い、笑い合う場所",
+              "zh": "和朋友相聚欢笑的地方"
+            },
+            "stat": {
+              "social": 6,
+              "happiness": 4
+            }
+          },
+          {
+            "id": "study",
+            "label": {
+              "en": "A crucible of hard study to forge a brighter future",
+              "ja": "よりよい未来のために学ぶ場",
+              "zh": "为更好的未来努力求学的地方"
+            },
+            "stat": {
+              "smarts": 8,
+              "health": -2
+            }
+          },
+          {
+            "id": "dream",
+            "label": {
+              "en": "A window gazing out onto a wider world",
+              "ja": "広い世界を知る窓",
+              "zh": "望向更广阔世界的窗口"
+            },
+            "stat": {
+              "smarts": 4,
+              "happiness": 5
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "30": {
+    "age": 30,
+    "title": {
+      "en": "Age 30: Midst the Human Tide",
+      "ja": "30歳：人の流れの中で",
+      "zh": "30岁：置身人海"
+    },
+    "fact": {
+      "en": "The average 30-year-old works 44 hours a week, facing housing, family, and career pressures in an interconnected world.",
+      "ja": "30歳の人は週平均44時間働き、つながり合う世界で住宅、家庭、仕事の重圧と向き合います。",
+      "zh": "三十岁的人平均每周工作44小时，在相互联系的世界里面对住房、家庭和事业的压力。"
+    },
+    "questions": [
+      {
+        "question": {
+          "en": "Looking at your journey so far, what are you most grateful for today?",
+          "ja": "これまでの歩みで、今日いちばん感謝していることは何ですか？",
+          "zh": "回望走过的路，今天你最感激什么？"
+        },
+        "options": [
+          {
+            "id": "health",
+            "label": {
+              "en": "That family and loved ones are safe and sound",
+              "ja": "家族や大切な人が無事でいること",
+              "zh": "家人和所爱之人平安健康"
+            },
+            "stat": {
+              "happiness": 6,
+              "social": 4
+            }
+          },
+          {
+            "id": "work",
+            "label": {
+              "en": "Having honest work and self-reliance",
+              "ja": "まじめに働き、自立していること",
+              "zh": "拥有正当的工作，能够自立"
+            },
+            "stat": {
+              "wealth": 200,
+              "smarts": 3
+            }
+          },
+          {
+            "id": "peace",
+            "label": {
+              "en": "A peaceful corner of home amidst turbulent times",
+              "ja": "落ち着ける我が家があること",
+              "zh": "动荡之中有一个安宁的家"
+            },
+            "stat": {
+              "happiness": 8
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "50": {
+    "age": 50,
+    "title": {
+      "en": "Age 50: Half a Century Lived",
+      "ja": "50歳：半世紀の歩み",
+      "zh": "50岁：半个世纪的人生"
+    },
+    "fact": {
+      "en": "Global life expectancy increased from 46 in 1950 to over 73 today, representing humanity's greatest triumph over disease.",
+      "ja": "世界の平均寿命は1950年の46歳から73歳以上に伸びました。病気に立ち向かってきた人類の成果です。",
+      "zh": "全球预期寿命从1950年的46岁上升至73岁以上，体现了人类战胜疾病的巨大进步。"
+    },
+    "questions": [
+      {
+        "question": {
+          "en": "Throughout half a century of trials, who or what kept you anchored?",
+          "ja": "半世紀の苦労の中で、あなたを支え続けたものは何ですか？",
+          "zh": "走过半个世纪的考验，是什么一直支撑着你？"
+        },
+        "options": [
+          {
+            "id": "friends",
+            "label": {
+              "en": "True friends who called and listened in darkest hours",
+              "ja": "つらい時に話を聞いてくれた友人",
+              "zh": "在低谷中打电话倾听的真心朋友"
+            },
+            "stat": {
+              "social": 8,
+              "happiness": 5
+            }
+          },
+          {
+            "id": "family",
+            "label": {
+              "en": "The laughter of children welcoming you home",
+              "ja": "帰宅を迎える子どもたちの笑い声",
+              "zh": "回家时迎接你的孩子们的笑声"
+            },
+            "stat": {
+              "happiness": 10,
+              "social": 5
+            }
+          },
+          {
+            "id": "faith",
+            "label": {
+              "en": "Inner fortitude and faith in tomorrow",
+              "ja": "心の強さと明日への希望",
+              "zh": "内心的坚韧和对明天的信念"
+            },
+            "stat": {
+              "smarts": 6,
+              "health": 4
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "70": {
+    "age": 70,
+    "title": {
+      "en": "Age 70: The Golden Sunset",
+      "ja": "70歳：黄金の夕暮れ",
+      "zh": "70岁：金色的晚霞"
+    },
+    "fact": {
+      "en": "Of the babies born in the exact same second as you 70 years ago, most have now concluded their life story.",
+      "ja": "70年前、あなたと同じ瞬間に生まれた人たちの多くは、すでに人生の物語を閉じています。",
+      "zh": "七十年前与你同一秒出生的人中，许多人已经走完了自己的人生故事。"
+    },
+    "questions": [
+      {
+        "question": {
+          "en": "Looking back upon a unique human life, how do you wish to be remembered?",
+          "ja": "自分だけの人生を振り返り、どのように覚えていてほしいですか？",
+          "zh": "回望独一无二的一生，你希望别人怎样记住你？"
+        },
+        "options": [
+          {
+            "id": "warm",
+            "label": {
+              "en": "Someone who brought warmth and comfort to those nearby",
+              "ja": "身近な人に温かさと安心を与えた人",
+              "zh": "给身边的人带来温暖和安慰的人"
+            },
+            "stat": {
+              "happiness": 12,
+              "social": 8
+            }
+          },
+          {
+            "id": "honest",
+            "label": {
+              "en": "An honest soul who worked hard and lived with integrity",
+              "ja": "まじめに働き、誠実に生きた人",
+              "zh": "勤恳工作、正直生活的人"
+            },
+            "stat": {
+              "smarts": 8,
+              "happiness": 10
+            }
+          },
+          {
+            "id": "dinner",
+            "label": {
+              "en": "The quiet memory of shared family dinners",
+              "ja": "家族で食卓を囲んだ静かな思い出",
+              "zh": "一家人共进晚餐的宁静回忆"
+            },
+            "stat": {
+              "happiness": 15
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

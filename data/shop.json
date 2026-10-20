@@ -1,0 +1,142 @@
+[
+  {
+    "id": "dinner",
+    "name": {
+      "en": "Family & Friends Gathering Dinner",
+      "ja": "家族・友人との食事会",
+      "zh": "家人与朋友聚餐"
+    },
+    "desc": {
+      "en": "Bonds +4, Happiness +2",
+      "ja": "絆 +4、幸福 +2",
+      "zh": "情谊 +4，幸福 +2"
+    },
+    "minAge": 16,
+    "costPercentile": 0.03,
+    "effects": {
+      "social": 4,
+      "happiness": 2,
+      "wealth": -200
+    }
+  },
+  {
+    "id": "checkup",
+    "name": {
+      "en": "Comprehensive Health Checkup & PT",
+      "ja": "総合健診と運動療法",
+      "zh": "全面体检与理疗"
+    },
+    "desc": {
+      "en": "Health +6, reduced chronic risk",
+      "ja": "健康 +6、慢性疾患リスク低下",
+      "zh": "健康 +6，降低慢性病风险"
+    },
+    "minAge": 25,
+    "costPercentile": 0.08,
+    "effects": {
+      "health": 8,
+      "happiness": 2,
+      "wealth": -400
+    }
+  },
+  {
+    "id": "trip",
+    "name": {
+      "en": "Domestic Sightseeing Trip",
+      "ja": "国内旅行",
+      "zh": "国内观光旅行"
+    },
+    "desc": {
+      "en": "Happiness +6, Smarts +2",
+      "ja": "幸福 +6、知性 +2",
+      "zh": "幸福 +6，智力 +2"
+    },
+    "minAge": 16,
+    "costPercentile": 0.06,
+    "effects": {
+      "happiness": 6,
+      "smarts": 2,
+      "wealth": -300
+    }
+  },
+  {
+    "id": "abroad",
+    "name": {
+      "en": "International Journey Abroad",
+      "ja": "海外旅行",
+      "zh": "国际旅行"
+    },
+    "desc": {
+      "en": "Happiness +10, Smarts +5",
+      "ja": "幸福 +10、知性 +5",
+      "zh": "幸福 +10，智力 +5"
+    },
+    "minAge": 20,
+    "costPercentile": 0.25,
+    "effects": {
+      "happiness": 10,
+      "smarts": 5,
+      "wealth": -1200
+    }
+  },
+  {
+    "id": "course",
+    "name": {
+      "en": "Professional Certification & Training",
+      "ja": "資格取得・専門研修",
+      "zh": "职业认证与培训"
+    },
+    "desc": {
+      "en": "Smarts +8, career promotion chances",
+      "ja": "知性 +8、昇進の機会",
+      "zh": "智力 +8，晋升机会"
+    },
+    "minAge": 18,
+    "costPercentile": 0.12,
+    "effects": {
+      "smarts": 8,
+      "happiness": -2,
+      "wealth": -500
+    }
+  },
+  {
+    "id": "donate",
+    "name": {
+      "en": "Charitable Donation to Community",
+      "ja": "地域への寄付",
+      "zh": "向社区慈善捐款"
+    },
+    "desc": {
+      "en": "Happiness +6, Social +4",
+      "ja": "幸福 +6、社交 +4",
+      "zh": "幸福 +6，社交 +4"
+    },
+    "minAge": 20,
+    "costPercentile": 0.05,
+    "effects": {
+      "happiness": 6,
+      "social": 4,
+      "wealth": -250
+    }
+  },
+  {
+    "id": "pet",
+    "name": {
+      "en": "Adopt a Companion Pet (Dog/Cat)",
+      "ja": "犬・猫を家族に迎える",
+      "zh": "领养宠物狗或猫"
+    },
+    "desc": {
+      "en": "Happiness +8, Social +5",
+      "ja": "幸福 +8、社交 +5",
+      "zh": "幸福 +8，社交 +5"
+    },
+    "minAge": 10,
+    "costPercentile": 0.04,
+    "effects": {
+      "happiness": 8,
+      "social": 5,
+      "wealth": -150
+    }
+  }
+]

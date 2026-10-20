@@ -1,0 +1,72 @@
+{
+  "VNM": {
+    "en": "Tet (Lunar New Year)",
+    "ja": "テト（旧正月）",
+    "zh": "越南春节"
+  },
+  "CHN": {
+    "en": "Chunjie (Spring Festival)",
+    "ja": "春節",
+    "zh": "春节"
+  },
+  "KOR": {
+    "en": "Seollal (Korean Lunar New Year)",
+    "ja": "ソルラル（韓国の旧正月）",
+    "zh": "韩国旧历新年"
+  },
+  "JPN": {
+    "en": "Oshogatsu (New Year Festival)",
+    "ja": "お正月",
+    "zh": "日本新年"
+  },
+  "THA": {
+    "en": "Songkran Water Festival",
+    "ja": "ソンクラーン（水かけ祭り）",
+    "zh": "宋干泼水节"
+  },
+  "LAO": {
+    "en": "Boun Pi Mai (Lao New Year)",
+    "ja": "ピーマイ（ラオスの新年）",
+    "zh": "老挝新年"
+  },
+  "KHM": {
+    "en": "Chaul Chnam Thmey",
+    "ja": "カンボジアの新年",
+    "zh": "柬埔寨新年"
+  },
+  "MMR": {
+    "en": "Thingyan Water Festival",
+    "ja": "ティンジャン（水かけ祭り）",
+    "zh": "缅甸泼水节"
+  },
+  "IND": {
+    "en": "Diwali (Festival of Lights)",
+    "ja": "ディワリ（光の祭り）",
+    "zh": "排灯节"
+  },
+  "NPL": {
+    "en": "Dashain Festival",
+    "ja": "ダサイン祭",
+    "zh": "德赛节"
+  },
+  "IRN": {
+    "en": "Nowruz (Persian New Year)",
+    "ja": "ノウルーズ（ペルシャの新年）",
+    "zh": "诺鲁孜节（波斯新年）"
+  },
+  "AFG": {
+    "en": "Nowruz",
+    "ja": "ノウルーズ",
+    "zh": "诺鲁孜节"
+  },
+  "MNG": {
+    "en": "Tsagaan Sar (White Moon Festival)",
+    "ja": "ツァガーンサル（白い月の祭り）",
+    "zh": "蒙古白月节"
+  },
+  "ETH": {
+    "en": "Timkat Epiphany Festival",
+    "ja": "ティムカット（公現祭）",
+    "zh": "埃塞俄比亚主显节"
+  }
+}

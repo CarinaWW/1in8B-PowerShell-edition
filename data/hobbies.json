@@ -1,0 +1,222 @@
+{
+  "sport": {
+    "en": "Playing sports",
+    "stats": {
+      "h": 3,
+      "hl": 4,
+      "so": 2,
+      "sm": 0
+    },
+    "ja": "スポーツ",
+    "zh": "体育运动"
+  },
+  "music": {
+    "en": "Singing & musical instruments",
+    "stats": {
+      "h": 4,
+      "hl": 0,
+      "so": 2,
+      "sm": 1
+    },
+    "ja": "歌・楽器演奏",
+    "zh": "唱歌与乐器演奏"
+  },
+  "dance": {
+    "en": "Dancing",
+    "stats": {
+      "h": 4,
+      "hl": 2,
+      "so": 2,
+      "sm": 0
+    },
+    "ja": "ダンス",
+    "zh": "跳舞"
+  },
+  "screen": {
+    "en": "Watching movies & TV series",
+    "stats": {
+      "h": 3,
+      "hl": -1,
+      "so": 0,
+      "sm": 0
+    },
+    "ja": "映画・ドラマ鑑賞",
+    "zh": "看电影和电视剧"
+  },
+  "sns": {
+    "en": "Browsing social media",
+    "stats": {
+      "h": 2,
+      "hl": -1,
+      "so": 2,
+      "sm": 0
+    },
+    "ja": "SNSを見る",
+    "zh": "浏览社交媒体"
+  },
+  "games": {
+    "en": "Video gaming",
+    "stats": {
+      "h": 4,
+      "hl": -1,
+      "so": 1,
+      "sm": 1
+    },
+    "ja": "テレビゲーム",
+    "zh": "电子游戏"
+  },
+  "reading": {
+    "en": "Reading books",
+    "stats": {
+      "h": 2,
+      "hl": 0,
+      "so": 0,
+      "sm": 4
+    },
+    "ja": "読書",
+    "zh": "阅读"
+  },
+  "faith": {
+    "en": "Religious community gatherings",
+    "stats": {
+      "h": 3,
+      "hl": 0,
+      "so": 4,
+      "sm": 0
+    },
+    "ja": "宗教コミュニティの集まり",
+    "zh": "宗教社区聚会"
+  },
+  "fishing": {
+    "en": "Recreational fishing",
+    "stats": {
+      "h": 3,
+      "hl": 1,
+      "so": 1,
+      "sm": 0
+    },
+    "ja": "釣り",
+    "zh": "休闲钓鱼"
+  },
+  "cooking": {
+    "en": "Cooking & culinary arts",
+    "stats": {
+      "h": 3,
+      "hl": 1,
+      "so": 2,
+      "sm": 1
+    },
+    "ja": "料理",
+    "zh": "烹饪"
+  },
+  "garden": {
+    "en": "Gardening & plant care",
+    "stats": {
+      "h": 3,
+      "hl": 2,
+      "so": 0,
+      "sm": 0
+    },
+    "ja": "園芸・植物の世話",
+    "zh": "园艺与照料植物"
+  },
+  "hiking": {
+    "en": "Hiking & scenic walks",
+    "stats": {
+      "h": 3,
+      "hl": 3,
+      "so": 1,
+      "sm": 0
+    },
+    "ja": "ハイキング・散歩",
+    "zh": "徒步与散步"
+  },
+  "travel": {
+    "en": "Traveling & backpacking",
+    "stats": {
+      "h": 5,
+      "hl": 0,
+      "so": 1,
+      "sm": 2
+    },
+    "ja": "旅行・バックパック",
+    "zh": "旅行与背包游"
+  },
+  "board": {
+    "en": "Board games (Chess, Go, Carrom)",
+    "stats": {
+      "h": 3,
+      "hl": 0,
+      "so": 3,
+      "sm": 1
+    },
+    "ja": "チェス・囲碁などの盤上ゲーム",
+    "zh": "棋类游戏（国际象棋、围棋等）"
+  },
+  "crafts": {
+    "en": "Handicrafts & knitting",
+    "stats": {
+      "h": 3,
+      "hl": 0,
+      "so": 1,
+      "sm": 1
+    },
+    "ja": "手芸・編み物",
+    "zh": "手工与编织"
+  },
+  "art": {
+    "en": "Drawing & painting",
+    "stats": {
+      "h": 3,
+      "hl": 0,
+      "so": 1,
+      "sm": 2
+    },
+    "ja": "絵を描く",
+    "zh": "绘画"
+  },
+  "drama": {
+    "en": "Theater acting & drama",
+    "stats": {
+      "h": 4,
+      "hl": 0,
+      "so": 3,
+      "sm": 1
+    },
+    "ja": "演劇",
+    "zh": "戏剧表演"
+  },
+  "photo": {
+    "en": "Photography",
+    "stats": {
+      "h": 3,
+      "hl": 1,
+      "so": 1,
+      "sm": 1
+    },
+    "ja": "写真撮影",
+    "zh": "摄影"
+  },
+  "gym": {
+    "en": "Gym & fitness training",
+    "stats": {
+      "h": 2,
+      "hl": 5,
+      "so": 0,
+      "sm": 0
+    },
+    "ja": "ジム・筋力トレーニング",
+    "zh": "健身训练"
+  },
+  "karaoke": {
+    "en": "Karaoke singing with friends",
+    "stats": {
+      "h": 4,
+      "hl": 0,
+      "so": 3,
+      "sm": 0
+    },
+    "ja": "友人とのカラオケ",
+    "zh": "和朋友唱卡拉OK"
+  }
+}

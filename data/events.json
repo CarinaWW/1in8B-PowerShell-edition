@@ -1,0 +1,1157 @@
+[
+  {
+    "id": "vax",
+    "minAge": 1,
+    "maxAge": 2,
+    "weight": 3,
+    "cat": "infant",
+    "statEffects": {
+      "health": 3
+    },
+    "text": {
+      "en": "You got your basic vaccinations (DTP and measles).",
+      "ja": "基本の予防接種（DTP・はしか）を受けました。",
+      "zh": "你接种了基本疫苗（百白破与麻疹）。"
+    },
+    "fact": {
+      "en": "In 2023, 84% of infants worldwide received all three doses of the DTP vaccine (WHO·UNICEF)",
+      "ja": "2023年、世界の乳児の84%がDTPワクチン3回の接種を完了しました（WHO・UNICEF）。",
+      "zh": "2023年，全球84%的婴儿完成了三剂百白破疫苗接种（WHO、UNICEF）。"
+    },
+    "requirements": {}
+  },
+  {
+    "id": "steps",
+    "minAge": 1,
+    "maxAge": 1,
+    "weight": 3,
+    "cat": "infant",
+    "statEffects": {
+      "happiness": 2
+    },
+    "text": {
+      "en": "You took your first steps. The whole family clapped.",
+      "ja": "初めて歩き、家族みんなが拍手しました。",
+      "zh": "你迈出了第一步，全家人拍手欢呼。"
+    },
+    "fact": null,
+    "requirements": {}
+  },
+  {
+    "id": "word",
+    "minAge": 1,
+    "maxAge": 2,
+    "weight": 2,
+    "cat": "infant",
+    "statEffects": {},
+    "text": {
+      "en": "You said your first word: ‘Mama’.",
+      "ja": "初めて「ママ」と言いました。",
+      "zh": "你说出了第一个词：“妈妈”。"
+    },
+    "fact": null,
+    "requirements": {}
+  },
+  {
+    "id": "kidsick",
+    "minAge": 0,
+    "maxAge": 4,
+    "weight": 40,
+    "cat": "infant",
+    "statEffects": {
+      "health": -4
+    },
+    "text": {
+      "en": "You had diarrhea for a few days, but a visit to the doctor soon put you right.",
+      "ja": "何日か下痢が続きましたが、受診して元気になりました。",
+      "zh": "你腹泻了几天，看过医生后很快康复。"
+    },
+    "requirements": {}
+  },
+  {
+    "id": "fam_room",
+    "minAge": 6,
+    "maxAge": 11,
+    "weight": 0.9,
+    "cat": "childhood",
+    "statEffects": {
+      "happiness": 2
+    },
+    "text": {
+      "en": "When you started primary school, you got a room of your own.",
+      "ja": "小学校に上がるころ、自分の部屋ができました。",
+      "zh": "开始上小学时，你拥有了自己的房间。"
+    },
+    "fact": null,
+    "requirements": {
+      "minQuintile": 4
+    }
+  },
+  {
+    "id": "fam_trip",
+    "minAge": 5,
+    "maxAge": 14,
+    "weight": 0.8,
+    "cat": "youth",
+    "statEffects": {
+      "happiness": 3,
+      "social": 1
+    },
+    "text": {
+      "en": "You went on a trip with your family during the school holidays.",
+      "ja": "学校の休みに、家族と旅行に出かけました。",
+      "zh": "学校放假期间，你和家人一起旅行。"
+    },
+    "fact": null,
+    "requirements": {
+      "minQuintile": 4
+    }
+  },
+  {
+    "id": "kid_water",
+    "minAge": 5,
+    "maxAge": 12,
+    "weight": 30,
+    "cat": "childhood",
+    "statEffects": {
+      "health": 1,
+      "happiness": -1
+    },
+    "text": {
+      "en": "Before sunrise you carried a water can to the far well and back. The way home always felt longer.",
+      "ja": "夜明け前に遠くの井戸へ水をくみに行きました。帰り道はいつも長く感じました。",
+      "zh": "天还没亮，你就提着水罐去远处的井里打水。回家的路总显得格外漫长。"
+    },
+    "fact": {
+      "en": "In 7 of 10 households without water at home, women and girls fetch it (WHO/UNICEF JMP 2023)",
+      "ja": "自宅に水道がない世帯の7割で、女性や女の子が水くみを担っています（WHO・UNICEF JMP 2023）。",
+      "zh": "在家中无供水的家庭里，七成由妇女和女孩负责取水（WHO、UNICEF JMP，2023）。"
+    },
+    "requirements": {
+      "rural": true,
+      "maxQuintile": 2,
+      "maxPpp": 7000
+    }
+  },
+  {
+    "id": "kid_bike",
+    "minAge": 5,
+    "maxAge": 10,
+    "weight": 30,
+    "cat": "childhood",
+    "statEffects": {
+      "happiness": 3
+    },
+    "text": {
+      "en": "You learned to ride a bicycle in the lot in front of your building. After a few falls you rode off on your own.",
+      "ja": "家の前で自転車を練習し、何度か転んだ末に一人で乗れました。",
+      "zh": "你在楼前学骑自行车，摔了几次后终于能独自骑行。"
+    },
+    "fact": null,
+    "requirements": {}
+  },
+  {
+    "id": "kid_rain",
+    "minAge": 5,
+    "maxAge": 11,
+    "weight": 30,
+    "cat": "childhood",
+    "statEffects": {
+      "happiness": 2
+    },
+    "text": {
+      "en": "In the rainy season the lanes swelled like rivers. You and the neighbourhood children sailed paper boats on the muddy water.",
+      "ja": "雨季に道が川のようになり、近所の子と泥水に紙の船を浮かべました。",
+      "zh": "雨季里小巷像河流，你和邻居的孩子们在泥水上放纸船。"
+    },
+    "fact": null,
+    "requirements": {
+      "rural": true,
+      "regions": [
+        "eap",
+        "sa",
+        "lac",
+        "ssa"
+      ]
+    }
+  },
+  {
+    "id": "kid_snow",
+    "minAge": 3,
+    "maxAge": 11,
+    "weight": 30,
+    "cat": "childhood",
+    "statEffects": {
+      "happiness": 3,
+      "social": 1
+    },
+    "text": {
+      "en": "On the day of the first heavy snow you had a snowball fight with the neighbourhood children and built a snowman.",
+      "ja": "初めて大雪が降った日、近所の子と雪合戦をして雪だるまを作りました。",
+      "zh": "第一次下大雪时，你和邻居的孩子打雪仗、堆雪人。"
+    },
+    "fact": null,
+    "requirements": {
+      "countries": [
+        "KOR",
+        "JPN",
+        "CHN",
+        "USA",
+        "CAN",
+        "RUS",
+        "MNG",
+        "NOR",
+        "SWE",
+        "FIN",
+        "DEU"
+      ]
+    }
+  },
+  {
+    "id": "kid_academy",
+    "minAge": 9,
+    "maxAge": 13,
+    "weight": 30,
+    "cat": "youth",
+    "statEffects": {
+      "smarts": 2,
+      "happiness": -2
+    },
+    "text": {
+      "en": "After school you went on to two cram schools and got home only after dark.",
+      "ja": "放課後は塾を二つ回り、帰宅するころには真っ暗でした。",
+      "zh": "放学后你连上两家补习班，回到家时天已全黑。"
+    },
+    "fact": {
+      "en": "78.5% of Korean school students take private tutoring (Statistics Korea, 2023 private education survey)",
+      "ja": "韓国の児童・生徒の78.5%が私教育を受けています（韓国統計庁、2023年調査）。",
+      "zh": "韩国78.5%的中小学生接受课外辅导（韩国统计厅，2023年调查）。"
+    },
+    "requirements": {
+      "countries": [
+        "KOR",
+        "CHN",
+        "JPN",
+        "VNM",
+        "TWN",
+        "SGP"
+      ]
+    }
+  },
+  {
+    "id": "kid_lamp",
+    "minAge": 7,
+    "maxAge": 13,
+    "weight": 30,
+    "cat": "youth",
+    "statEffects": {
+      "smarts": 1
+    },
+    "text": {
+      "en": "There was no electricity at home, so you did your homework by the light of an oil lamp.",
+      "ja": "家に電気がなく、石油ランプの明かりで宿題をしました。",
+      "zh": "家里没有电，你靠着油灯做作业。"
+    },
+    "fact": {
+      "en": "In 2022 about 685 million people lived without electricity, more than 80% of them in sub-Saharan Africa (Tracking SDG7 2024)",
+      "ja": "2022年、約6億8,500万人が電気のない生活を送り、その8割以上がサハラ以南アフリカに住んでいました（Tracking SDG7 2024）。",
+      "zh": "2022年约有6.85亿人无法用电，其中超过80%生活在撒哈拉以南非洲（Tracking SDG7，2024）。"
+    },
+    "requirements": {
+      "maxPpp": 7000,
+      "maxQuintile": 2
+    }
+  },
+  {
+    "id": "kid_ball",
+    "minAge": 5,
+    "maxAge": 12,
+    "weight": 30,
+    "cat": "childhood",
+    "statEffects": {
+      "happiness": 3,
+      "health": 1,
+      "social": 2
+    },
+    "text": {
+      "en": "With a ball made of rolled-up plastic bags, you played football barefoot until the sun went down.",
+      "ja": "丸めたビニール袋のボールで、日が暮れるまで裸足でサッカーをしました。",
+      "zh": "你用塑料袋卷成的球踢足球，光着脚一直踢到太阳落山。"
+    },
+    "fact": null,
+    "requirements": {
+      "maxQuintile": 2
+    }
+  },
+  {
+    "id": "kid_library",
+    "minAge": 6,
+    "maxAge": 12,
+    "weight": 30,
+    "cat": "childhood",
+    "statEffects": {
+      "smarts": 2,
+      "happiness": 1
+    },
+    "text": {
+      "en": "At the local library you got your first library card with your own name on it.",
+      "ja": "地元の図書館で、自分の名前の貸出カードを作りました。",
+      "zh": "你在社区图书馆办了第一张写着自己名字的借书证。"
+    },
+    "fact": null,
+    "requirements": {}
+  },
+  {
+    "id": "kid_tree",
+    "minAge": 6,
+    "maxAge": 11,
+    "weight": 30,
+    "cat": "childhood",
+    "statEffects": {
+      "happiness": 2,
+      "health": -1
+    },
+    "text": {
+      "en": "You fell from the big tree at the edge of the village and scraped your knees. The next day you climbed it again.",
+      "ja": "村はずれの木から落ちて膝をすりむきましたが、翌日また登りました。",
+      "zh": "你从村边的大树上摔下，擦破了膝盖，第二天却又爬了上去。"
+    },
+    "fact": null,
+    "requirements": {}
+  },
+  {
+    "id": "fam_maid",
+    "minAge": 1,
+    "maxAge": 6,
+    "weight": 1,
+    "cat": "childhood",
+    "statEffects": {},
+    "text": {
+      "en": "Your family had someone at home to help with the housework and look after you.",
+      "ja": "家には家事や育児を手伝ってくれる人がいました。",
+      "zh": "家里有人帮忙料理家务、照顾你。"
+    },
+    "fact": null,
+    "requirements": {
+      "minQuintile": 4
+    }
+  },
+  {
+    "id": "fam_room1",
+    "minAge": 2,
+    "maxAge": 12,
+    "weight": 1,
+    "cat": "childhood",
+    "statEffects": {
+      "happiness": -1
+    },
+    "text": {
+      "en": "The whole family ate and slept together in a single room.",
+      "ja": "家族全員が、一つの部屋で食事をし、眠りました。",
+      "zh": "全家人在同一个房间吃饭、睡觉。"
+    },
+    "fact": null,
+    "requirements": {
+      "maxQuintile": 2
+    }
+  },
+  {
+    "id": "fam_clothes",
+    "minAge": 4,
+    "maxAge": 12,
+    "weight": 0.8,
+    "cat": "childhood",
+    "statEffects": {},
+    "text": {
+      "en": "New clothes came only once a year, for the holidays.",
+      "ja": "新しい服を買うのは、年に一度の祭りの時だけでした。",
+      "zh": "只有一年一度过节时，才有新衣服穿。"
+    },
+    "fact": null,
+    "requirements": {
+      "maxQuintile": 2
+    }
+  },
+  {
+    "id": "hungry",
+    "minAge": 0,
+    "maxAge": 17,
+    "weight": 1.5,
+    "cat": "youth",
+    "statEffects": {
+      "health": -5,
+      "happiness": -3,
+      "smarts": -1
+    },
+    "text": {
+      "en": "A poor harvest meant many days with only one meal.",
+      "ja": "不作で、1日に1食しか食べられない日が続きました。",
+      "zh": "收成不好，许多日子里只能吃一顿饭。"
+    },
+    "fact": {
+      "en": "In 2023, about 733 million people worldwide faced hunger (FAO SOFI 2024)",
+      "ja": "2023年、世界で約7億3,300万人が飢餓に直面しました（FAO SOFI 2024）。",
+      "zh": "2023年，全球约有7.33亿人面临饥饿（FAO SOFI，2024）。"
+    },
+    "requirements": {
+      "maxPpp": 7000,
+      "maxQuintile": 2
+    }
+  },
+  {
+    "id": "stunt",
+    "minAge": 1,
+    "maxAge": 4,
+    "weight": 1,
+    "cat": "infant",
+    "statEffects": {
+      "health": -4,
+      "smarts": -3
+    },
+    "text": {
+      "en": "Poor nutrition left you shorter than other children your age.",
+      "ja": "栄養が足りず、同じ年の子より背が低めでした。",
+      "zh": "营养不足使你比同龄孩子矮小。"
+    },
+    "fact": {
+      "en": "22% of children under 5 worldwide are stunted (UNICEF·WHO 2023)",
+      "ja": "世界の5歳未満児の22%に発育阻害があります（UNICEF・WHO 2023）。",
+      "zh": "全球22%的5岁以下儿童存在发育迟缓（UNICEF、WHO，2023）。"
+    },
+    "requirements": {
+      "maxPpp": 7000,
+      "maxQuintile": 2
+    }
+  },
+  {
+    "id": "play",
+    "minAge": 2,
+    "maxAge": 9,
+    "weight": 2,
+    "cat": "childhood",
+    "statEffects": {
+      "happiness": 3,
+      "social": 2
+    },
+    "text": {
+      "en": "You played with the neighbourhood children until the sun went down.",
+      "ja": "日が暮れるまで近所の子と遊びました。",
+      "zh": "你和邻居的孩子们一直玩到日落。"
+    },
+    "fact": null,
+    "requirements": {}
+  },
+  {
+    "id": "kinder",
+    "minAge": 3,
+    "maxAge": 5,
+    "weight": 2,
+    "cat": "childhood",
+    "statEffects": {
+      "smarts": 3,
+      "social": 2
+    },
+    "text": {
+      "en": "You started preschool.",
+      "ja": "幼稚園に通い始めました。",
+      "zh": "你开始上幼儿园。"
+    },
+    "fact": null,
+    "requirements": {}
+  },
+  {
+    "id": "water",
+    "minAge": 4,
+    "maxAge": 15,
+    "weight": 1.5,
+    "cat": "youth",
+    "statEffects": {
+      "health": -1,
+      "smarts": -1
+    },
+    "text": {
+      "en": "Every morning you walked a long way to fetch water.",
+      "ja": "毎朝、遠くまで水をくみに歩きました。",
+      "zh": "每天早晨，你都走很远的路去取水。"
+    },
+    "fact": {
+      "en": "In 2022, 2.2 billion people worldwide lacked safely managed drinking water (WHO·UNICEF JMP)",
+      "ja": "2022年、世界の22億人に安全に管理された飲み水がありませんでした（WHO・UNICEF JMP）。",
+      "zh": "2022年，全球22亿人缺乏得到安全管理的饮用水（WHO、UNICEF JMP）。"
+    },
+    "requirements": {
+      "rural": true,
+      "maxQuintile": 2,
+      "maxPpp": 7000
+    }
+  },
+  {
+    "id": "nopower",
+    "minAge": 4,
+    "maxAge": 16,
+    "weight": 1,
+    "cat": "youth",
+    "statEffects": {},
+    "text": {
+      "en": "There was no electricity, so after sunset you lived by lamplight.",
+      "ja": "電気がないので、日没後はランプの明かりで暮らしました。",
+      "zh": "因为没有电，日落后你靠灯火照明。"
+    },
+    "fact": {
+      "en": "In 2022, about 685 million people worldwide lived without electricity (Tracking SDG7 2024)",
+      "ja": "2022年、世界の約6億8,500万人が電気のない生活を送っていました（Tracking SDG7 2024）。",
+      "zh": "2022年，全球约6.85亿人无法用电（Tracking SDG7，2024）。"
+    },
+    "requirements": {
+      "maxPpp": 7000,
+      "maxQuintile": 2
+    }
+  },
+  {
+    "id": "grades",
+    "minAge": 7,
+    "maxAge": 22,
+    "weight": 2,
+    "cat": "general",
+    "statEffects": {
+      "happiness": 3
+    },
+    "text": {
+      "en": "Your grades were among the best in your class.",
+      "ja": "学校でクラスの上位の成績を取りました。",
+      "zh": "你的成绩在班里名列前茅。"
+    },
+    "fact": null,
+    "requirements": {
+      "inSchool": true
+    }
+  },
+  {
+    "id": "bully",
+    "minAge": 8,
+    "maxAge": 15,
+    "weight": 30,
+    "cat": "youth",
+    "statEffects": {
+      "happiness": -6,
+      "social": -3
+    },
+    "text": {
+      "en": "You were bullied at school.",
+      "ja": "学校でいじめを受けました。",
+      "zh": "你在学校遭受了欺凌。"
+    },
+    "fact": null,
+    "requirements": {
+      "inSchool": true
+    }
+  },
+  {
+    "id": "chores",
+    "minAge": 6,
+    "maxAge": 14,
+    "weight": 1,
+    "cat": "youth",
+    "statEffects": {
+      "health": 1,
+      "smarts": -1,
+      "social": 1
+    },
+    "text": {
+      "en": "After school, you tended the animals and helped in the fields.",
+      "ja": "放課後は家畜の世話や畑仕事を手伝いました。",
+      "zh": "放学后，你照看牲畜、帮忙干农活。"
+    },
+    "fact": null,
+    "requirements": {
+      "rural": true,
+      "maxQuintile": 2
+    }
+  },
+  {
+    "id": "childwork",
+    "minAge": 6,
+    "maxAge": 14,
+    "weight": 2,
+    "cat": "youth",
+    "statEffects": {
+      "health": -2
+    },
+    "text": {
+      "en": "Instead of school, you served customers in the family shop all day.",
+      "ja": "学校に行く代わりに、家の店で一日中接客しました。",
+      "zh": "你没有上学，而是在家里的店铺整天招呼客人。"
+    },
+    "fact": {
+      "en": "About 160 million children worldwide are in child labor (ILO·UNICEF 2020)",
+      "ja": "世界で約1億6千万人の子どもが児童労働に従事しています（ILO・UNICEF 2020）。",
+      "zh": "全球约有1.6亿儿童从事童工劳动（ILO、UNICEF，2020）。"
+    },
+    "requirements": {
+      "maxQuintile": 2
+    }
+  },
+  {
+    "id": "crush",
+    "minAge": 13,
+    "maxAge": 18,
+    "weight": 1,
+    "cat": "youth",
+    "statEffects": {
+      "happiness": 2
+    },
+    "text": {
+      "en": "You had a crush on a classmate.",
+      "ja": "クラスの子を好きになりました。",
+      "zh": "你喜欢上了一位同班同学。"
+    },
+    "fact": null,
+    "requirements": {}
+  },
+  {
+    "id": "exam",
+    "minAge": 15,
+    "maxAge": 18,
+    "weight": 2,
+    "cat": "youth",
+    "statEffects": {},
+    "text": {
+      "en": "You did well on an important exam.",
+      "ja": "大事な試験で、よい成績を取りました。",
+      "zh": "你在一次重要考试中取得了好成绩。"
+    },
+    "fact": null,
+    "requirements": {
+      "inSchool": true
+    }
+  },
+  {
+    "id": "teenjob",
+    "minAge": 14,
+    "maxAge": 18,
+    "weight": 1,
+    "cat": "youth",
+    "statEffects": {},
+    "text": {
+      "en": "You worked over the school break and earned your first money.",
+      "ja": "学校の休みに働き、初めて自分でお金を稼ぎました。",
+      "zh": "学校放假时，你打工赚到了第一笔钱。"
+    },
+    "fact": null,
+    "requirements": {}
+  },
+  {
+    "id": "hithome",
+    "minAge": 4,
+    "maxAge": 13,
+    "weight": 1.6,
+    "cat": "youth",
+    "statEffects": {
+      "happiness": -3,
+      "social": -1
+    },
+    "text": {
+      "en": "When you did something wrong, you were hit. On those nights you lay awake for a long time.",
+      "ja": "失敗すると叩かれ、そんな夜はなかなか眠れませんでした。",
+      "zh": "做错事时你会挨打，那些夜晚你总是久久难眠。"
+    },
+    "fact": null,
+    "requirements": {}
+  },
+  {
+    "id": "parentfight",
+    "minAge": 4,
+    "maxAge": 17,
+    "weight": 2,
+    "cat": "youth",
+    "statEffects": {
+      "happiness": -3
+    },
+    "text": {
+      "en": "Your parents argued often.",
+      "ja": "両親がよく言い争っていました。",
+      "zh": "父母经常争吵。"
+    },
+    "fact": null,
+    "requirements": {}
+  },
+  {
+    "id": "layoff",
+    "minAge": 20,
+    "maxAge": 62,
+    "weight": 40,
+    "cat": "adulthood",
+    "statEffects": {
+      "happiness": -4
+    },
+    "text": {
+      "en": "You lost your job.",
+      "ja": "仕事を失いました。",
+      "zh": "你失业了。"
+    },
+    "fact": null,
+    "requirements": {}
+  },
+  {
+    "id": "harvest",
+    "minAge": 16,
+    "maxAge": 80,
+    "weight": 1.5,
+    "cat": "general",
+    "statEffects": {},
+    "text": {
+      "en": "The harvest was good this year.",
+      "ja": "今年は豊作でした。",
+      "zh": "今年获得了好收成。"
+    },
+    "fact": null,
+    "requirements": {
+      "rural": true
+    }
+  },
+  {
+    "id": "expense",
+    "minAge": 20,
+    "maxAge": 90,
+    "weight": 0.8,
+    "cat": "adulthood",
+    "statEffects": {},
+    "text": {
+      "en": "You went to a relative's funeral, lent a hand and paid your respects.",
+      "ja": "親戚の葬儀に参列し、手伝いながら別れを告げました。",
+      "zh": "你参加了亲戚的葬礼，帮忙料理事务并表达哀思。"
+    },
+    "fact": null,
+    "requirements": {}
+  },
+  {
+    "id": "theft",
+    "minAge": 16,
+    "maxAge": 80,
+    "weight": 6,
+    "cat": "general",
+    "statEffects": {
+      "happiness": -3
+    },
+    "text": {
+      "en": "A bicycle left outside for a moment was stolen.",
+      "ja": "少しの間、外に置いた自転車が盗まれました。",
+      "zh": "自行车在外面放了一会儿，就被偷走了。"
+    },
+    "fact": null,
+    "requirements": {}
+  },
+  {
+    "id": "wedding",
+    "minAge": 13,
+    "maxAge": 50,
+    "weight": 0.5,
+    "cat": "general",
+    "statEffects": {
+      "happiness": 2
+    },
+    "text": {
+      "en": "You went to a friend's wedding and brought your good wishes instead of a gift.",
+      "ja": "友人の結婚式に出席し、贈り物の代わりに心から祝いました。",
+      "zh": "你参加朋友的婚礼，送上了真心的祝福。"
+    },
+    "fact": null,
+    "requirements": {}
+  },
+  {
+    "id": "reunion",
+    "minAge": 25,
+    "maxAge": 80,
+    "weight": 0.6,
+    "cat": "adulthood",
+    "statEffects": {
+      "social": 4,
+      "happiness": 3
+    },
+    "text": {
+      "en": "You got together with old friends and talked all night.",
+      "ja": "古い友人と集まり、一晩中話しました。",
+      "zh": "你和老朋友聚在一起，聊了整整一夜。"
+    },
+    "fact": null,
+    "requirements": {}
+  },
+  {
+    "id": "overwork",
+    "minAge": 22,
+    "maxAge": 64,
+    "weight": 2,
+    "cat": "adulthood",
+    "statEffects": {
+      "health": -4,
+      "happiness": -2
+    },
+    "text": {
+      "en": "Night after night of overtime wore you out.",
+      "ja": "連日の残業で疲れきってしまいました。",
+      "zh": "连夜加班让你疲惫不堪。"
+    },
+    "fact": null,
+    "requirements": {}
+  },
+  {
+    "id": "flu",
+    "minAge": 5,
+    "maxAge": 100,
+    "weight": 0.2,
+    "cat": "general",
+    "statEffects": {
+      "health": -3
+    },
+    "text": {
+      "en": "You were sick with the flu for a week.",
+      "ja": "インフルエンザで1週間寝込みました。",
+      "zh": "你患上流感，病了一周。"
+    },
+    "fact": null,
+    "requirements": {}
+  },
+  {
+    "id": "back",
+    "minAge": 25,
+    "maxAge": 90,
+    "weight": 30,
+    "cat": "adulthood",
+    "statEffects": {
+      "health": -3
+    },
+    "text": {
+      "en": "You strained your back lifting something heavy, and the back pain started.",
+      "ja": "重いものを持って腰を痛め、腰痛に悩まされ始めました。",
+      "zh": "你搬重物时扭伤了腰，开始受腰痛困扰。"
+    },
+    "fact": null,
+    "requirements": {}
+  },
+  {
+    "id": "accident",
+    "minAge": 10,
+    "maxAge": 80,
+    "weight": 40,
+    "cat": "general",
+    "statEffects": {
+      "health": -8
+    },
+    "text": {
+      "en": "You were hit by a car while crossing the street and hurt your leg. You were on crutches for months.",
+      "ja": "道を渡るとき車にはねられ、数か月松葉づえを使いました。",
+      "zh": "你过马路时被车撞伤了腿，拄了几个月的拐杖。"
+    },
+    "requirements": {}
+  },
+  {
+    "id": "heat",
+    "minAge": 5,
+    "maxAge": 100,
+    "weight": 0.6,
+    "cat": "general",
+    "statEffects": {
+      "health": -2
+    },
+    "text": {
+      "en": "A record heat wave hit.",
+      "ja": "記録的な熱波に見舞われました。",
+      "zh": "一场创纪录的热浪来袭。"
+    },
+    "fact": null,
+    "requirements": {}
+  },
+  {
+    "id": "lonely",
+    "minAge": 60,
+    "maxAge": 125,
+    "weight": 1.5,
+    "cat": "elder",
+    "statEffects": {
+      "happiness": -3
+    },
+    "text": {
+      "en": "Lonely days came more and more often.",
+      "ja": "寂しい日が増えてきました。",
+      "zh": "孤独的日子越来越多。"
+    },
+    "fact": null,
+    "requirements": {}
+  },
+  {
+    "id": "memory",
+    "minAge": 75,
+    "maxAge": 125,
+    "weight": 0.8,
+    "cat": "elder",
+    "statEffects": {
+      "smarts": -3
+    },
+    "text": {
+      "en": "Your memory isn't what it used to be.",
+      "ja": "物忘れが気になるようになりました。",
+      "zh": "你的记忆力不如从前了。"
+    },
+    "fact": null,
+    "requirements": {}
+  },
+  {
+    "id": "mindkeep",
+    "minAge": 65,
+    "maxAge": 105,
+    "weight": 0.6,
+    "cat": "elder",
+    "statEffects": {
+      "smarts": 1,
+      "happiness": 1
+    },
+    "text": {
+      "en": "You took classes at the community center and learned something new.",
+      "ja": "地域の教室に通い、新しいことを学びました。",
+      "zh": "你参加社区课程，学到了新东西。"
+    },
+    "fact": {
+      "en": "Keeping on learning, staying in touch with people and exercising lower the risk of dementia (Lancet Commission on dementia, 2024)",
+      "ja": "学び続けること、人とのつながり、運動は認知症のリスクを下げます（Lancet認知症委員会 2024）。",
+      "zh": "持续学习、保持社交和锻炼有助于降低失智风险（《柳叶刀》失智症委员会，2024）。"
+    },
+    "requirements": {}
+  },
+  {
+    "id": "checkup",
+    "minAge": 40,
+    "maxAge": 90,
+    "weight": 0.7,
+    "cat": "adulthood",
+    "statEffects": {
+      "health": 1
+    },
+    "text": {
+      "en": "You had a routine health checkup.",
+      "ja": "定期健診を受けました。",
+      "zh": "你做了一次常规体检。"
+    },
+    "fact": null,
+    "requirements": {}
+  },
+  {
+    "id": "seeking",
+    "minAge": 16,
+    "maxAge": 64,
+    "weight": 2,
+    "cat": "general",
+    "statEffects": {
+      "happiness": -3
+    },
+    "text": {
+      "en": "You went looking for work, but it wasn't easy.",
+      "ja": "仕事を探しましたが、なかなか見つかりませんでした。",
+      "zh": "你四处找工作，但并不容易。"
+    },
+    "fact": null,
+    "requirements": {}
+  },
+  {
+    "id": "paygap",
+    "minAge": 22,
+    "maxAge": 62,
+    "weight": 30,
+    "cat": "adulthood",
+    "statEffects": {},
+    "text": {
+      "en": "You found out that the men doing the same job as you were paid a higher salary.",
+      "ja": "同じ仕事をする男性のほうが高い給料をもらっていると知りました。",
+      "zh": "你发现做同样工作的男性薪水更高。"
+    },
+    "fact": null,
+    "requirements": {
+      "sex": "F"
+    }
+  },
+  {
+    "id": "volunteer",
+    "minAge": 16,
+    "maxAge": 82,
+    "weight": 1,
+    "cat": "general",
+    "statEffects": {
+      "happiness": 3,
+      "social": 3
+    },
+    "text": {
+      "en": "Every weekend you volunteered, serving meals at a free food kitchen.",
+      "ja": "毎週末、無料食堂で食事を配るボランティアをしました。",
+      "zh": "每个周末，你都去免费食堂做志愿者，帮忙供餐。"
+    },
+    "fact": null,
+    "requirements": {}
+  },
+  {
+    "id": "graying",
+    "minAge": 26,
+    "maxAge": 55,
+    "weight": 30,
+    "cat": "adulthood",
+    "statEffects": {
+      "happiness": -1
+    },
+    "text": {
+      "en": "You found your first gray hair in the mirror.",
+      "ja": "鏡の中に初めての白髪を見つけました。",
+      "zh": "你在镜子里发现了第一根白发。"
+    },
+    "fact": null,
+    "requirements": {}
+  },
+  {
+    "id": "teachjr",
+    "minAge": 38,
+    "maxAge": 64,
+    "weight": 0.5,
+    "cat": "adulthood",
+    "statEffects": {
+      "happiness": 2,
+      "social": 2
+    },
+    "text": {
+      "en": "You taught a young neighbor how to farm, and remembered yourself at that age.",
+      "ja": "近所の若者に農作業を教え、同じ年ごろの自分を思い出しました。",
+      "zh": "你教邻居的年轻人种田，想起了自己年轻时的样子。"
+    },
+    "fact": null,
+    "requirements": {
+      "rural": true
+    }
+  },
+  {
+    "id": "rift",
+    "minAge": 20,
+    "maxAge": 70,
+    "weight": 30,
+    "cat": "adulthood",
+    "statEffects": {
+      "happiness": -2,
+      "social": -2
+    },
+    "text": {
+      "en": "You had a big falling-out with a brother or sister over money and stopped speaking.",
+      "ja": "お金のことできょうだいと大げんかをし、口をきかなくなりました。",
+      "zh": "你因金钱和兄弟姐妹大吵一架，从此不再说话。"
+    },
+    "fact": null,
+    "requirements": {
+      "siblings": true
+    }
+  },
+  {
+    "id": "noise",
+    "minAge": 20,
+    "maxAge": 85,
+    "weight": 0.5,
+    "cat": "adulthood",
+    "statEffects": {
+      "social": 1
+    },
+    "text": {
+      "en": "You quarreled with a neighbor over noise, then made peace over shared food.",
+      "ja": "騒音で近所の人と口論しましたが、食事を分け合って仲直りしました。",
+      "zh": "你因噪声与邻居争吵，后来一起吃饭和好了。"
+    },
+    "fact": null,
+    "requirements": {}
+  },
+  {
+    "id": "scare",
+    "minAge": 40,
+    "maxAge": 78,
+    "weight": 0.35,
+    "cat": "adulthood",
+    "statEffects": {
+      "happiness": -1,
+      "health": 2
+    },
+    "text": {
+      "en": "A check-up found something, and you had more tests. Luckily it was nothing. Since then you have kept yourself a little more active.",
+      "ja": "健診で再検査になりましたが、幸い異常はありませんでした。それからは少し運動するようになりました。",
+      "zh": "体检发现异常，你做了进一步检查。幸好没事，从那以后你开始多活动一些。"
+    },
+    "fact": null,
+    "requirements": {}
+  },
+  {
+    "id": "oh_kid",
+    "minAge": 70,
+    "maxAge": 125,
+    "weight": 1.5,
+    "cat": "elder",
+    "statEffects": {
+      "happiness": 2,
+      "social": 2
+    },
+    "text": {
+      "en": "Coming home from school, the grandchildren stopped by your room first.",
+      "ja": "学校帰りの孫が、まずあなたの部屋に寄ってくれました。",
+      "zh": "孙辈放学回家，总先来你的房间看看。"
+    },
+    "fact": null,
+    "requirements": {
+      "grandchildren": true,
+      "children": true
+    }
+  },
+  {
+    "id": "oh_care",
+    "minAge": 70,
+    "maxAge": 125,
+    "weight": 1.5,
+    "cat": "elder",
+    "statEffects": {
+      "happiness": 1,
+      "social": 1
+    },
+    "text": {
+      "en": "Your children came to visit you at the care home at the weekend.",
+      "ja": "週末に子どもたちが介護施設へ会いに来てくれました。",
+      "zh": "周末，孩子们来养老院探望你。"
+    },
+    "fact": null,
+    "requirements": {
+      "children": true
+    }
+  },
+  {
+    "id": "wallet",
+    "minAge": 12,
+    "maxAge": 88,
+    "weight": 1,
+    "cat": "general",
+    "statEffects": {
+      "happiness": 3
+    },
+    "text": {
+      "en": "A stranger found your lost wallet and returned it. The world was kinder than you thought.",
+      "ja": "落とした財布を見知らぬ人が届けてくれました。世界は思ったより親切でした。",
+      "zh": "陌生人捡到你的钱包并归还，世界比你想象的更温柔。"
+    },
+    "fact": null,
+    "requirements": {}
+  },
+  {
+    "id": "kindhelp",
+    "minAge": 60,
+    "maxAge": 105,
+    "weight": 0.5,
+    "cat": "elder",
+    "statEffects": {
+      "happiness": 2,
+      "social": 1
+    },
+    "text": {
+      "en": "When you fell in the street, a passing student helped you up.",
+      "ja": "道で転ぶと、通りがかった学生が起こしてくれました。",
+      "zh": "你在路上摔倒，一位路过的学生扶你起来。"
+    },
+    "fact": null,
+    "requirements": {}
+  }
+]
