@@ -1,6 +1,6 @@
 # 1 in 8 Billion — PowerShell edition
 
-上班摸魚用的自作學習版，請支持正版https://1in8b.life/。（NT$90即可開通珍藏通行證）
+上班摸魚用的自作學習版，請支持正版https://1in8b.life/ 。（NT$90即可開通珍藏通行證）
 無需聯網，無圖形界面，僅在powershell中游玩。
 
 A text-only life simulation for Windows PowerShell 5.1 or PowerShell 7. English, Japanese, and Simplified Chinese are included. There is no GUI, browser, image, installer, or external dependency.
