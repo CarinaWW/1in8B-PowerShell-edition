@@ -5,7 +5,6 @@
 .DESCRIPTION
   You are born at random somewhere on Earth, weighted by real birth numbers.
   Live year by year, make life decisions, and see how far fate takes you.
-  Port of https://github.com/nguyenngocduy0401/1in8b-clone (a clone of 1in8b.life).
   Entirely offline. All data is bundled; saves stay in the local saves folder.
 
 .PARAMETER Lang
